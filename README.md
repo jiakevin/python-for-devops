@@ -6,8 +6,13 @@ Apply python to DevOps practices
 * Create development environment that is cloud-based:
 
 ### github codespaces
-### AWS CloudShell
-### AWS Cloud9
+* clone project from github
+  `git clone                                                                          ✔  22:09:07 
+╰─ git@github.com:jiakevin/python-for-devops.git`
+* For new environment we may need to run keygen and copy public key to github account
+  `ssh-keygen -t rsa`
+* Install required libs
+  `make install`
 
 ## Command-line Tools
 
